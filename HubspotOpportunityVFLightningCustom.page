@@ -1,0 +1,4 @@
+<apex:page sidebar="false" standardController="Opportunity">
+    <apex:iframe height="330px" width="100%" scrolling="true" src="https://api.hubapi.com/sfdc/v1/visualforce/{!$Organization.Id}/{!Opportunity.AccountId}/{!$User.Email}" />
+</apex:page>
+                
